@@ -1,5 +1,6 @@
 import Taro, { Component, Config } from '@tarojs/taro'
 import { View, Text } from '@tarojs/components'
+import Ctexteara from "../../components/texteara"
 import './index.scss'
 
 export default class Index extends Component {
@@ -25,10 +26,16 @@ export default class Index extends Component {
     navigationBarTitleText: '首页'
   }
 
+  setTextareaValue(value) {
+    this.setState({
+      textareaValue: value,
+    })
+  }
+
   render () {
     return (
       <View className='index'>
-        <Text>Hello world!</Text>
+        <Ctexteara title='剧组介绍' required name='introduce' placeholder='请输入...' onChange={(value) => this.setTextareaValue(value)} />
       </View>
     )
   }

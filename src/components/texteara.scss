@@ -1,0 +1,34 @@
+.texteara-wrap{
+  .form-textarea{
+    padding: 36px 0;
+    .title-box{
+      margin-bottom: 24px;
+      .label{
+        font-size: 32px;
+        line-height: 32x;
+      }
+      .requiredIcon{
+        color: #EF4238;
+        margin-left: 8px;
+      }
+    }
+    .text-view{
+      height: 300px;
+      border: 2px solid #E8E8E8;
+      padding: 10px;
+      .text-value{
+        color: #999999;
+      }
+    }
+   
+  }
+  Textarea{
+    position: relative;
+    bottom: 12px;
+    right: 10px;
+    letter-spacing:normal;
+  }
+  Text{
+    letter-spacing:normal;
+  }
+}
