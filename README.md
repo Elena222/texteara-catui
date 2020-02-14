@@ -1,3 +1,7 @@
 # texteara-catui
-基于taro的小程序组件，解决原生组件层级最高问题
-原理：使用text和texteara标示多行文本输入状态和未输入状态
+基于taro的小程序组件，解决texteara使用过程中的缺陷
+
+由于texteara是小程序原生组件，层级最高，导致texteara会位于浮动元素之上，因此提供一个texteara组件解决以上问题
+
+
+使用text和texteara标示多行文本输入状态和未输入状态

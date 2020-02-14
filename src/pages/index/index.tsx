@@ -32,10 +32,74 @@ export default class Index extends Component {
     })
   }
 
+  formSubmit() {
+
+  }
+
   render () {
     return (
       <View className='index'>
-        <Ctexteara title='剧组介绍' required name='introduce' placeholder='请输入...' onChange={(value) => this.setTextareaValue(value)} />
+        <Form onSubmit={this.formSubmit}>
+          <View className='formItem'>
+            <View className='lable'>
+              <Text>剧组名称</Text>
+              <Text className='requiredIcon'>*</Text>
+            </View>
+            <Input className='input' name='name' title='剧组名称' type='text' placeholder={`请输入剧组名称`} placeholder-style='color: #999' />
+          </View>
+          <View className='formItem'>
+            <View className='lable'>
+              <Text>剧组名称</Text>
+              <Text className='requiredIcon'>*</Text>
+            </View>
+            <Input className='input' name='name' title='剧组名称' type='text' placeholder={`请输入剧组名称`} placeholder-style='color: #999' />
+          </View>
+          <View className='formItem'>
+            <View className='lable'>
+              <Text>剧组名称</Text>
+              <Text className='requiredIcon'>*</Text>
+            </View>
+            <Input className='input' name='name' title='剧组名称' type='text' placeholder={`请输入剧组名称`} placeholder-style='color: #999' />
+          </View>
+          <View className='formItem'>
+            <View className='lable'>
+              <Text>剧组名称</Text>
+              <Text className='requiredIcon'>*</Text>
+            </View>
+            <Input className='input' name='name' title='剧组名称' type='text' placeholder={`请输入剧组名称`} placeholder-style='color: #999' />
+          </View>
+          <View className='formItem'>
+            <View className='lable'>
+              <Text>剧组名称</Text>
+              <Text className='requiredIcon'>*</Text>
+            </View>
+            <Input className='input' name='name' title='剧组名称' type='text' placeholder={`请输入剧组名称`} placeholder-style='color: #999' />
+          </View>
+          <View className='formItem'>
+            <View className='lable'>
+              <Text>剧组名称</Text>
+              <Text className='requiredIcon'>*</Text>
+            </View>
+            <Input className='input' name='name' title='剧组名称' type='text' placeholder={`请输入剧组名称`} placeholder-style='color: #999' />
+          </View>
+          <View className='formItem'>
+            <View className='lable'>
+              <Text>剧组名称</Text>
+              <Text className='requiredIcon'>*</Text>
+            </View>
+            <Input className='input' name='name' title='剧组名称' type='text' placeholder={`请输入剧组名称`} placeholder-style='color: #999' />
+          </View>
+          <View className='formItem'>
+            <View className='lable'>
+              <Text>剧组名称</Text>
+              <Text className='requiredIcon'>*</Text>
+            </View>
+            <Input className='input' name='name' title='剧组名称' type='text' placeholder={`请输入剧组名称`} placeholder-style='color: #999' />
+          </View>
+          {/* 引入组件 */}
+          <Ctexteara title='剧组介绍' required name='introduce' placeholder='请输入...' onChange={(value) => this.setTextareaValue(value)} />
+          <Button className='btn-create' formType='submit' type="warn" >立即创建</Button>
+        </Form>
       </View>
     )
   }
