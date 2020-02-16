@@ -1,7 +1,7 @@
 {
   "name": "texteara-catui",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "description": "基于taro的多行文本组件 ",
   "templateInfo": {
     "name": "default",
@@ -26,7 +26,7 @@
     "dev:qq": "npm run build:qq -- --watch",
     "dev:quickapp": "npm run build:quickapp -- --watch"
   },
-  "author": "",
+  "author": "cc",
   "license": "MIT",
   "dependencies": {
     "@tarojs/components": "2.0.3",
@@ -67,5 +67,14 @@
     "@typescript-eslint/eslint-plugin": "^2.13.0",
     "@typescript-eslint/parser": "^2.13.0",
     "typescript": "^3.0.1"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elena222/texteara-catui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Elena222/texteara-catui/issues"
+  },
+  "homepage": "https://github.com/Elena222/texteara-catui#readme"
 }
