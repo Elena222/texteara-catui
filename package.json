@@ -1,6 +1,6 @@
 {
   "name": "texteara-catui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "基于taro的多行文本组件 ",
   "templateInfo": {
