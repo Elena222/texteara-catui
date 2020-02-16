@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 import "./texteara.scss"
 import "../../src/app.scss";
 
-export default class Link extends Component {
+export default class Ctexteara extends Component {
   static propTypes = {
     title: PropTypes.string,
     required: PropTypes.bool,
